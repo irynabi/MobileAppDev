@@ -4,10 +4,13 @@ import ButtonPage from './pages/ButtonPage'
 import AccordionPage from './pages/AccordionPage'
 import ModalPage from './pages/ModalPage'
 import NavBar from './components/NavBar'
+import Alert from './components/Alert'
 
 //IMPORTANT path here does not take a / before the route name
 export default function App() {
   return (
+  <>
+  <Alert> </Alert>
   <div className="container mx-auto grid grid-cols-6 gap-4 mt-4">
     <NavBar/>
     <div className='col-span-5 relative'> 
@@ -18,5 +21,6 @@ export default function App() {
     </Routes>
   </div>
   </div>
+  </>
   )
 }
