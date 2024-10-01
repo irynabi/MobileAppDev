@@ -8,7 +8,7 @@ const App = () => {
     const createTodo = (title) => {
         const updatedTodos = [
           ...todos, 
-          {id: Math.round(Math.random()*99999), title}
+          {id: Math.round(Math.random()*99999), title},
         ]
         setTodos(updatedTodos)
     }
@@ -42,7 +42,6 @@ const App = () => {
         <TodoList todos={todos} onDelete={deleteTodoByID} onEdit={editTodoById}/>
       </div>
     )
-  ;
 }
 
 export default App;

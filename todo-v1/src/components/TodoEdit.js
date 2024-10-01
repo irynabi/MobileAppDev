@@ -1,8 +1,7 @@
-import React from 'react'
 import {useState} from 'react'
 
 const TodoEdit = (props) => {
-    const {todo, onEdit} = props
+    const {todo, onSubmit} = props
     const [title, setTitle] = useState(todo.title)
 
     const handleChange = (event) => {
@@ -12,7 +11,7 @@ const TodoEdit = (props) => {
     const handleSubmit = (event) => {
         event.preventDefault()
         console.log('new title is: ', title)
-        onEdit(todo.id, title)
+        onSubmit(todo.id, title)
     }
     return (
         <form onSubmit={handleSubmit}>
