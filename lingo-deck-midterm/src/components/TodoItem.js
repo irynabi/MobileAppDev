@@ -24,7 +24,7 @@ const TodoItem = (props) => {
     <div>
       <p className= "cardType" >{todo.type}</p>
       <h3>{todo.title}</h3>
-      <p>{todo.translation}</p>
+      <p>means: {todo.translation}</p>
     </div>
   )
   if (showEdit) {

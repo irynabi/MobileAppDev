@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { FaCirclePlus } from "react-icons/fa";
 import useTodoContext from '../hooks/use-todo-context'
 
 const TodoEdit = (props) => {
@@ -25,6 +26,7 @@ const TodoEdit = (props) => {
     editTodoById(todo.id, title, type, translation)
     onSubmit()
   }
+  
   return (
     <form onSubmit={handleSubmit}>
       <input 

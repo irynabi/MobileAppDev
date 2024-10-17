@@ -31,7 +31,7 @@ const TodoCreate = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    createTodo(title,type, translation)
+    createTodo(title, type, translation)
     setTitle('')
     setType('Unknown type'); // DEFAULT status
     setTranslation(''); 
