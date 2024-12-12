@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "8d48",
+      "title": "Yes",
+      "content": "Sí",
+      "targetLang": "Spanish"
+    },
+    {
+      "id": "510c",
+      "title": "Hello",
+      "content": "Bonjour",
+      "targetLang": "French"
+    },
+    {
+      "id": "1a47",
+      "title": "Why",
+      "content": "Pourquoi",
+      "targetLang": "French"
+    },
+    {
+      "id": "2c12",
+      "title": "Hello",
+      "content": "你好",
+      "targetLang": "Chinese"
+    }
+  ],
+  "comments": []
+}
