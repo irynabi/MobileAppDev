@@ -35,3 +35,10 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Ignore all history files
+*.history
+
+# Ignore history files in specific directories
+logs/*.history
+backup/*.history
